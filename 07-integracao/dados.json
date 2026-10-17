@@ -1,0 +1,21 @@
+{
+  "name": "Animalia Santander",
+  "language": "es",
+  "address": "Calle Floranes 40, 39010 Santander, Cantabria",
+  "phone": "+34 686 16 37 99",
+  "phone_url": "tel:+34686163799",
+  "whatsapp": "https://wa.link/j75mpv",
+  "instagram": "https://www.instagram.com/animalia_santander/",
+  "map": "https://www.google.com/maps/search/?api=1&query=Animalia+Calle+Floranes+40+Santander",
+  "services": [
+    "Baño y corte",
+    "Deslanado y renovación de manto",
+    "Stripping",
+    "Baño y corte para gatos",
+    "Corte de uñas para aves, roedores y reptiles"
+  ],
+  "hours": null,
+  "prices": null,
+  "ecommerce": false,
+  "source": "Capturas enviadas pelo usuário em 17/10/2026; confirmar alterações antes de publicar."
+}

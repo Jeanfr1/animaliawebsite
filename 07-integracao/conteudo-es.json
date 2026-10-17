@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "title": "Para gustos, patitas.",
+    "intro": "Todo para su bienestar en un mismo lugar.",
+    "note": "Esto sí me gusta."
+  },
+  "shop": {
+    "title": "Alimentación y accesorios",
+    "body": "Alimentos, chuches, juguetes y accesorios para acompañar su día a día. Descúbrelos en nuestra tienda de Santander."
+  },
+  "grooming": {
+    "title": "Peluquería. Mimos que se notan.",
+    "body": "Baño y corte, deslanado y renovación de manto, stripping y cuidado del pelaje. Cuéntanos qué necesita tu compañero y pide tu cita."
+  },
+  "visit": {
+    "title": "Ven a conocernos",
+    "body": "Te esperamos en Calle Floranes 40, Santander. Alimentación, accesorios y un trato cercano para ti y tu mascota."
+  }
+}

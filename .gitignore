@@ -1,0 +1,11 @@
+node_modules/
+dist/
+assets-src/
+qa/
+.DS_Store
+.vercel
+__pycache__/
+*.log
+# third-party inspiration boards from the brief (not ours to publish)
+00-referencias/*
+!00-referencias/VIDEO-ORIGINAL.txt

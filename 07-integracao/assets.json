@@ -1,0 +1,287 @@
+[
+  {
+    "path": "00-referencias/Concept.png",
+    "bytes": 3525934,
+    "role": "referências do usuário"
+  },
+  {
+    "path": "00-referencias/VIDEO-ORIGINAL.txt",
+    "bytes": 264,
+    "role": "referências do usuário"
+  },
+  {
+    "path": "00-referencias/concept2(2).png",
+    "bytes": 1915490,
+    "role": "referências do usuário"
+  },
+  {
+    "path": "01-identidade/animalia-logo-transparente.png",
+    "bytes": 36026,
+    "role": "logo e título vetoriais, PNG e paleta"
+  },
+  {
+    "path": "01-identidade/animalia-logo-transparente.svg",
+    "bytes": 1192347,
+    "role": "logo e título vetoriais, PNG e paleta"
+  },
+  {
+    "path": "01-identidade/paleta.json",
+    "bytes": 112,
+    "role": "logo e título vetoriais, PNG e paleta"
+  },
+  {
+    "path": "01-identidade/titulo-modelo.svg",
+    "bytes": 91093,
+    "role": "logo e título vetoriais, PNG e paleta"
+  },
+  {
+    "path": "02-direcao/DIRECAO.md",
+    "bytes": 1073,
+    "role": "modelo, guia e maquetes ilustrativas"
+  },
+  {
+    "path": "02-direcao/guia-premium.pdf",
+    "bytes": 5094953,
+    "role": "modelo, guia e maquetes ilustrativas"
+  },
+  {
+    "path": "02-direcao/maquete-desktop.png",
+    "bytes": 3330280,
+    "role": "modelo, guia e maquetes ilustrativas"
+  },
+  {
+    "path": "02-direcao/maquete-mobile.png",
+    "bytes": 1094042,
+    "role": "modelo, guia e maquetes ilustrativas"
+  },
+  {
+    "path": "02-direcao/modelo-escolhido.png",
+    "bytes": 3556194,
+    "role": "modelo, guia e maquetes ilustrativas"
+  },
+  {
+    "path": "03-hero/cenario.png",
+    "bytes": 1844176,
+    "role": "hero e cenário de campanha gerados"
+  },
+  {
+    "path": "03-hero/cenario.webp",
+    "bytes": 144752,
+    "role": "hero e cenário de campanha gerados"
+  },
+  {
+    "path": "03-hero/hero-estatico.png",
+    "bytes": 1982321,
+    "role": "hero e cenário de campanha gerados"
+  },
+  {
+    "path": "03-hero/hero-estatico.webp",
+    "bytes": 161922,
+    "role": "hero e cenário de campanha gerados"
+  },
+  {
+    "path": "04-fotos-originais/fachada.png",
+    "bytes": 1360048,
+    "role": "anexos originais PNG e encodings WEBP"
+  },
+  {
+    "path": "04-fotos-originais/fachada.webp",
+    "bytes": 145312,
+    "role": "anexos originais PNG e encodings WEBP"
+  },
+  {
+    "path": "04-fotos-originais/instagram.png",
+    "bytes": 244018,
+    "role": "anexos originais PNG e encodings WEBP"
+  },
+  {
+    "path": "04-fotos-originais/loja-acessorios.png",
+    "bytes": 1116476,
+    "role": "anexos originais PNG e encodings WEBP"
+  },
+  {
+    "path": "04-fotos-originais/loja-acessorios.webp",
+    "bytes": 143570,
+    "role": "anexos originais PNG e encodings WEBP"
+  },
+  {
+    "path": "04-fotos-originais/loja-alimentacao.png",
+    "bytes": 3328307,
+    "role": "anexos originais PNG e encodings WEBP"
+  },
+  {
+    "path": "04-fotos-originais/loja-alimentacao.webp",
+    "bytes": 264686,
+    "role": "anexos originais PNG e encodings WEBP"
+  },
+  {
+    "path": "04-fotos-originais/servicos-equipe.png",
+    "bytes": 3182524,
+    "role": "anexos originais PNG e encodings WEBP"
+  },
+  {
+    "path": "04-fotos-originais/servicos-equipe.webp",
+    "bytes": 202124,
+    "role": "anexos originais PNG e encodings WEBP"
+  },
+  {
+    "path": "05-camadas/LEIA-ME.md",
+    "bytes": 548,
+    "role": "foregrounds de motion com alpha"
+  },
+  {
+    "path": "05-camadas/beagle-olhos-abertos.png",
+    "bytes": 1637453,
+    "role": "foregrounds de motion com alpha"
+  },
+  {
+    "path": "05-camadas/beagle-piscadela.png",
+    "bytes": 1512710,
+    "role": "foregrounds de motion com alpha"
+  },
+  {
+    "path": "05-camadas/petisco.png",
+    "bytes": 2120850,
+    "role": "foregrounds de motion com alpha"
+  },
+  {
+    "path": "06-roteiros/ANIMACAO.md",
+    "bytes": 1222,
+    "role": "conteúdo, motion e storyboard"
+  },
+  {
+    "path": "06-roteiros/CONTEUDO-ES.md",
+    "bytes": 576,
+    "role": "conteúdo, motion e storyboard"
+  },
+  {
+    "path": "06-roteiros/SECOES.md",
+    "bytes": 1419,
+    "role": "conteúdo, motion e storyboard"
+  },
+  {
+    "path": "06-roteiros/previa-animacao.mp4",
+    "bytes": 188113,
+    "role": "conteúdo, motion e storyboard"
+  },
+  {
+    "path": "06-roteiros/storyboard.png",
+    "bytes": 1074624,
+    "role": "conteúdo, motion e storyboard"
+  },
+  {
+    "path": "07-integracao/CHECKLIST-PUBLICACAO.md",
+    "bytes": 643,
+    "role": "dados, fontes, prompts e integração"
+  },
+  {
+    "path": "07-integracao/FONTES.md",
+    "bytes": 947,
+    "role": "dados, fontes, prompts e integração"
+  },
+  {
+    "path": "07-integracao/INTEGRACAO.md",
+    "bytes": 1193,
+    "role": "dados, fontes, prompts e integração"
+  },
+  {
+    "path": "07-integracao/PROMPTS.md",
+    "bytes": 2955,
+    "role": "dados, fontes, prompts e integração"
+  },
+  {
+    "path": "07-integracao/conteudo-es.json",
+    "bytes": 739,
+    "role": "dados, fontes, prompts e integração"
+  },
+  {
+    "path": "07-integracao/dados.json",
+    "bytes": 727,
+    "role": "dados, fontes, prompts e integração"
+  },
+  {
+    "path": "07-integracao/proveniencia.json",
+    "bytes": 1668,
+    "role": "dados, fontes, prompts e integração"
+  },
+  {
+    "path": "07-integracao/timeline.json",
+    "bytes": 643,
+    "role": "dados, fontes, prompts e integração"
+  },
+  {
+    "path": "08-estudo/animalia.css",
+    "bytes": 11754,
+    "role": "estudo HTML/CSS/JS e fontes locais"
+  },
+  {
+    "path": "08-estudo/animalia.js",
+    "bytes": 2763,
+    "role": "estudo HTML/CSS/JS e fontes locais"
+  },
+  {
+    "path": "08-estudo/fonts/Body.woff",
+    "bytes": 379400,
+    "role": "estudo HTML/CSS/JS e fontes locais"
+  },
+  {
+    "path": "08-estudo/fonts/DEJAVU-LICENCA.txt",
+    "bytes": 3859,
+    "role": "estudo HTML/CSS/JS e fontes locais"
+  },
+  {
+    "path": "08-estudo/fonts/Display.woff",
+    "bytes": 350676,
+    "role": "estudo HTML/CSS/JS e fontes locais"
+  },
+  {
+    "path": "08-estudo/fonts/Notes.woff",
+    "bytes": 76884,
+    "role": "estudo HTML/CSS/JS e fontes locais"
+  },
+  {
+    "path": "08-estudo/fonts/URW-LICENCA.txt",
+    "bytes": 52517,
+    "role": "estudo HTML/CSS/JS e fontes locais"
+  },
+  {
+    "path": "08-estudo/index.html",
+    "bytes": 6171,
+    "role": "estudo HTML/CSS/JS e fontes locais"
+  },
+  {
+    "path": "09-verificacao/README.md",
+    "bytes": 597,
+    "role": "testes e limites da validação"
+  },
+  {
+    "path": "09-verificacao/RELATORIO.md",
+    "bytes": 910,
+    "role": "testes e limites da validação"
+  },
+  {
+    "path": "09-verificacao/testar-controles.cjs",
+    "bytes": 2674,
+    "role": "testes e limites da validação"
+  },
+  {
+    "path": "09-verificacao/validar-kit.py",
+    "bytes": 1909,
+    "role": "testes e limites da validação"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2074,
+    "role": "documentação"
+  },
+  {
+    "path": "VERSION.json",
+    "bytes": 256,
+    "role": "documentação"
+  },
+  {
+    "path": "catalogo.html",
+    "bytes": 1382,
+    "role": "documentação"
+  }
+]

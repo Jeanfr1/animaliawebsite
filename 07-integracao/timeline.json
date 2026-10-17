@@ -1,0 +1,28 @@
+{
+  "duration": 4.4,
+  "loop": false,
+  "audio": false,
+  "reduced_motion": "Hero estático sem movimento; controles ocultos.",
+  "steps": [
+    {
+      "from": 0,
+      "to": 1.2,
+      "action": "Petisco entra pela direita acima do focinho."
+    },
+    {
+      "from": 1.2,
+      "to": 2.4,
+      "action": "Petisco atravessa arco curto; beagle acompanha com leve inclinação."
+    },
+    {
+      "from": 2.4,
+      "to": 3.2,
+      "action": "Crossfade da pose aberta para a piscadela e revelação da nota."
+    },
+    {
+      "from": 3.2,
+      "to": 4.4,
+      "action": "Petisco pousa na borda direita; pose se estabiliza."
+    }
+  ]
+}

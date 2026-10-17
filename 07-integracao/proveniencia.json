@@ -1,0 +1,56 @@
+{
+  "originals": [
+    {
+      "path": "04-fotos-originais/fachada.png",
+      "source": "Screenshot 2026-10-17 at 15.04.42.png",
+      "sha256": "283f350a2011f9c757f34911d8f1979ff29e242658527eca4543e933d27211c1"
+    },
+    {
+      "path": "04-fotos-originais/loja-acessorios.png",
+      "source": "Screenshot 2026-10-17 at 15.04.58.png",
+      "sha256": "2206738610eb75f0f1d00bd14bc6ff9be6af4bd89297bec8e080493d4a2e0e9e"
+    },
+    {
+      "path": "04-fotos-originais/loja-alimentacao.png",
+      "source": "Screenshot 2026-10-17 at 15.05.40.png",
+      "sha256": "25472ecabe0e03f9f98c3359f029dd0f0c1c5e05b381a2223ab7d1f372bd0c23"
+    },
+    {
+      "path": "04-fotos-originais/instagram.png",
+      "source": "Screenshot 2026-10-17 at 15.06.04.png",
+      "sha256": "d84ac79ce2009a8f25beca9822bc23397175e736759a0bf171bcd52a356c6c36"
+    },
+    {
+      "path": "04-fotos-originais/servicos-equipe.png",
+      "source": "Screenshot 2026-10-17 at 15.06.13.png",
+      "sha256": "c58b0777ea9ab141fa51ad4d91f2c930c707f86d68cfb622b798b34dd2f6414b"
+    }
+  ],
+  "generated": [
+    {
+      "role": "hero",
+      "path": "03-hero/hero-estatico.png",
+      "method": "ImageGen built-in"
+    },
+    {
+      "role": "background",
+      "path": "03-hero/cenario.png",
+      "method": "ImageGen built-in"
+    },
+    {
+      "role": "dog-open",
+      "path": "05-camadas/beagle-olhos-abertos.png",
+      "method": "ImageGen built-in"
+    },
+    {
+      "role": "dog-wink",
+      "path": "05-camadas/beagle-piscadela.png",
+      "method": "ImageGen built-in"
+    },
+    {
+      "role": "snack",
+      "path": "05-camadas/petisco.png",
+      "method": "ImageGen built-in"
+    }
+  ]
+}
