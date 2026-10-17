@@ -781,7 +781,7 @@ p {
 }
 
 .groom__copy {
-  margin-top: 18px;
+  margin-top: 26px;
   font-size: 16px;
 }
 
@@ -794,13 +794,13 @@ p {
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: 14px;
-  top: 98px;
-  width: 86px;
-  height: 86px;
+  right: 12px;
+  top: 84px;
+  width: 78px;
+  height: 78px;
   margin: 0;
   color: #e47c12;
-  font-size: 16px;
+  font-size: 14.5px;
   text-align: center;
   rotate: -10deg;
 }

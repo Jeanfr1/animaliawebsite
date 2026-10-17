@@ -2,6 +2,7 @@
 //   npm run qa                      local preview
 //   QA_BASE=https://… npm run qa    live site
 import { chromium } from 'playwright-core'
+import sharp from 'sharp'
 
 const base = process.env.QA_BASE || 'http://localhost:4197/'
 const results = []
@@ -155,6 +156,42 @@ for (const [w, h] of [[360, 740], [390, 844], [768, 1024], [900, 800], [1024, 76
   await page.waitForTimeout(900)
   const top = await page.evaluate(() => document.getElementById('peluqueria').getBoundingClientRect().top)
   check('phone: menu link reaches #peluqueria and closes', Math.abs(top) < 80 && !(await page.isVisible('#nav')), `top ${top.toFixed(0)}`)
+  await page.close()
+}
+
+// 7b. notes and stickers never cover text (06-roteiros/SECOES.md), measured on ink:
+// screenshots of each note's box with notes/texts toggled; overlap = pixels that
+// are both text ink and note ink.
+const NOTES = ['.groom__stamp', '.shop__note', '.bubble', '.sticker', '.groom__scissors', '.visit__pin', '.spark--shop', '.spark--title', '.groom__mini-heart', '.star']
+const TEXTS = 'h1, h2, .copy, .btn, .visit__address, .hero__sub, .perks'
+for (const w of [360, 390, 430, 1024, 1440]) {
+  const page = await browser.newPage({ viewport: { width: w, height: 900 } })
+  await page.goto(new URL('?static', base).href, { waitUntil: 'networkidle' })
+  await page.evaluate(() => document.fonts.ready)
+  await page.addStyleTag({ content: `.qa-nt :is(${TEXTS}){visibility:hidden!important}.qa-nn :is(${NOTES.join(',')}){visibility:hidden!important}` })
+  const hits = []
+  for (const sel of NOTES) {
+    const rects = await page.evaluate((sel) => [...document.querySelectorAll(sel)].filter((e) => e.getClientRects().length && getComputedStyle(e).display !== 'none').map((e) => { const r = e.getBoundingClientRect(); return { x: r.left + scrollX, y: r.top + scrollY, w: r.width, h: r.height } }), sel)
+    for (const r of rects) {
+      const clip = { x: Math.max(0, Math.floor(r.x)), y: Math.max(0, Math.floor(r.y)), width: Math.ceil(Math.min(r.w, w - r.x)), height: Math.ceil(r.h) }
+      if (clip.width < 2 || clip.height < 2) continue
+      const shot = async (cls) => {
+        await page.evaluate((cls) => (document.documentElement.className = cls), cls)
+        return sharp(await page.screenshot({ clip, fullPage: true })).removeAlpha().raw().toBuffer()
+      }
+      const both = await shot('qa-nn')       // texts only
+      const none = await shot('qa-nn qa-nt') // neither
+      const note = await shot('qa-nt')       // note only
+      let n = 0
+      for (let i = 0; i < none.length; i += 3) {
+        const d = (a) => Math.abs(a[i] - none[i]) + Math.abs(a[i + 1] - none[i + 1]) + Math.abs(a[i + 2] - none[i + 2])
+        if (d(both) > 90 && d(note) > 90) n++
+      }
+      if (n > 12) hits.push(`${sel} (${n}px)`)
+    }
+  }
+  await page.evaluate(() => (document.documentElement.className = ''))
+  check(`${w}px notes don't cover text (ink)`, hits.length === 0, hits.join(' | '))
   await page.close()
 }
 

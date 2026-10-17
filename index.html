@@ -99,6 +99,8 @@
     </header>
 
     <main id="principal">
+      <!-- TODO(animalia): owner sign-off on the hero imagery (beagle, treat and shop backdrop are generated campaign art, not the shop's own photos)
+           and on the board wording "Asesoramiento cercano" / "Tu tienda de confianza en Santander". -->
       <!-- 02 / Hero: beagle and treat are 2D layers over the empty shop backdrop;
            the CSS default is the board's final frame (wink + treat in the air),
            src/hero.js plays the 4.4 s entrance from it. -->
@@ -171,7 +173,8 @@
         </div>
       </section>
 
-      <!-- 03 / Tienda: the shop's own photo full-bleed, cream paper on the left. -->
+      <!-- 03 / Tienda: the shop's own photo full-bleed, cream paper on the left.
+           TODO(animalia): body copy and "Calidad para cada etapa de su vida" come from the approved board (CONTEUDO-ES differs); confirm with the shop. -->
       <section class="shop" id="tienda" aria-labelledby="shop-title">
         <div class="shop__photo" data-torn="1024 330 11 6 tb">
           <picture>
@@ -190,7 +193,8 @@
         <p class="note shop__note"><span class="shop__note-ticks" aria-hidden="true"></span>Calidad<br />para cada<br />etapa de su vida<svg class="shop__note-arrow" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 34c3-11 11-18 24-21M30 13l-8-1M30 13l-3 7.5"/></svg></p>
       </section>
 
-      <!-- 04 / Peluquería: the shop's own services post (list removed, kept in the footer), paper on the right. -->
+      <!-- 04 / Peluquería: the shop's own services post (list removed, kept in the footer), paper on the right.
+           TODO(animalia): an original photo of the grooming room would beat the cleaned Instagram post; confirm permission for the groomer's image. -->
       <section class="groom" id="peluqueria" aria-labelledby="groom-title">
         <div class="groom__photo" data-torn="664 296 5 5 trb">
           <picture>
@@ -204,7 +208,7 @@
           <article class="paper groom__paper" data-torn="400 324 31 6 tlb">
             <h2 class="display groom__title" id="groom-title"><span class="display__line">Peluquería</span> <span class="display__line display__line--accent">Mimos que</span> <span class="display__line display__line--accent">se notan.</span></h2>
             <svg class="groom__scissors" aria-hidden="true"><use href="#i-scissors"/></svg>
-            <p class="copy groom__copy">Baño, corte, deslanado y mucho más, con un trato cercano y profesional. Para que se sientan bien por dentro y por fuera.</p>
+            <p class="copy groom__copy">Baño, corte, deslanado y mucho más, con un trato cercano y profesional. Para que se sientan bien por dentro y&nbsp;por&nbsp;fuera.</p>
             <a class="btn btn--green btn--groom" href="{{whatsapp}}" target="_blank" rel="noopener"><svg class="btn__icon" aria-hidden="true"><use href="#i-cal"/></svg><span>Pide cita ahora</span><svg class="btn__icon btn__icon--end" aria-hidden="true"><use href="#i-arrow"/></svg></a>
             <svg class="groom__mini-heart" aria-hidden="true"><use href="#i-heart-hand"/></svg>
             <p class="note groom__stamp"><svg class="groom__ring" viewBox="0 0 100 100" aria-hidden="true"><path d="M52 4C25 2 5 22 5 50c0 25 20 45 45 45 27 0 45-19 45-45C95 26 77 5 47 5"/></svg><span>Limpios,<br />felices,<br />únicos.</span></p>
@@ -212,7 +216,8 @@
         </div>
       </section>
 
-      <!-- 05 / Visita: the real façade (Calle Floranes 40), not the board's concept façade. -->
+      <!-- 05 / Visita: the real façade (Calle Floranes 40), not the board's concept façade.
+           TODO(animalia): logo is traced from a screenshot; replace with the brand's master file when available. -->
       <section class="visit" id="nosotros" aria-labelledby="visit-title">
         <div class="visit__photo">
           <picture>
